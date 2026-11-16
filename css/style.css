@@ -116,7 +116,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 .portrait { position: relative; aspect-ratio: 4 / 5; max-width: 26rem; width: 100%; justify-self: end; isolation: isolate; }
 .portrait::before { content: ""; position: absolute; inset: 0; background: var(--blue); border-radius: 28px; transform: translate(0.9rem, 0.9rem); z-index: -1; }
-.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 12%; border-radius: 28px; background: var(--paper); border: 2px solid var(--ink); }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; border-radius: 28px; background: var(--paper); border: 2px solid var(--ink); }
 .portrait-fallback { display: none; position: absolute; inset: 0; border-radius: 28px; background: var(--paper); border: 2px solid var(--ink); font-family: var(--display); font-weight: 800; font-size: clamp(5rem, 14vw, 9rem); letter-spacing: -0.05em; align-items: center; justify-content: center; }
 .portrait.no-photo img { display: none; }
 .portrait.no-photo .portrait-fallback { display: flex; }
